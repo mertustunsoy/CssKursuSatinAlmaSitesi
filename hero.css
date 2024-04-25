@@ -1,0 +1,64 @@
+
+
+* {
+    margin: 0;
+    font-family: Bebas Neue;
+}
+
+.hero {
+    background-color: #0b303f;
+    width: 100%;
+    height: 760px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+
+.hero .title h1{
+    color: white;
+    font-family: Bebas Neue;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.hero .dt {
+    color: white;
+    text-align: center;
+
+}
+
+.hero .dt a {
+    color: white;
+
+
+}
+
+.hero .btn a {
+    
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+    background-color: #fab001;
+    border-radius: 8px;
+    font-weight: bolder;
+
+    
+}
+
+.hero .btn a:hover{
+    font-size: 22px;
+    background-color: #ffcf60;
+    transition: 0.5s;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+.hero .btn {
+    
+    margin-top: 2rem;
+}
+

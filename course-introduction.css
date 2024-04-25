@@ -1,0 +1,45 @@
+.course-introduction {
+    height: 760px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.course-introduction .img {
+    width: 100%;
+    text-align: center;
+}
+
+.course-list li{
+    display: flex;
+    justify-content: space-between;
+   /* width: 100%; */
+   font-size: 32px;
+
+}
+
+.course-list ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.course-list li::before{
+    content: url(/İMG/299110_check_sign_icon.png);
+
+}
+
+.course-list li span {
+    color: rgba(255, 0, 0, 0.656);
+    font-weight:bolder ;
+}
+
+.course-title-img {
+    margin-top: 98px;
+}
+
+

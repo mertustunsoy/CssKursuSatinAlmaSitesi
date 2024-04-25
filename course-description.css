@@ -1,0 +1,47 @@
+.course-description {
+    height: 100%;
+    background: #0B303F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+
+}
+
+.description {
+    display: flex;
+    align-items: center;
+
+}
+
+.description ul:nth-child(even) {
+    color: #ffcf60;
+
+}
+
+
+
+.description span {
+    color: #ffcf60;
+}
+
+.pay button {
+    width: 350px;
+    padding: 18px;
+    font-size: 25px;
+    margin-top: 18px;
+    background-color: #ffcf60;
+    font-weight: bolder;
+    transition:all 3s ease-in-out;
+}
+
+.description ul li{
+    line-height: 62px;
+}
+
+
+.pay h4 {
+    letter-spacing: 5px;
+}

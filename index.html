@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERT İLE CSS PAKETİ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas Neue">
+    <link rel="stylesheet" href="/hero.css">
+    <link rel="stylesheet" href="/hero2.css">
+    <link rel="stylesheet" href="/course-description.css">
+    <link rel="stylesheet" href="/course-introduction.css">
+    <link rel="stylesheet" href="/global.css">
+    
+</head> 
+<body>
+    <button onclick="topFunction()" id="mybtn" title="Yukarı Cık">YUKARI</button>
+    <!-- HERO BAŞLANGIŞ -->
+    <div class="hero">
+        <div class="title">
+            <h1 class="title_name animate__animated animate__fadeInLeft animate__delay-0.5s">CSS ÖĞRENMEK İSTER MİSİNİZ?</h1>
+        </div>
+        <div class="dt animate__animated animate__fadeInLeft animate__delay-0.5s">
+            <h3>CSS (Cascading Style Sheets), Türkçe'ye "Basamaklı Stil Sayfaları" olarak çevrilen, <br> web sayfalarının görsel tasarımını
+            ve biçimini kontrol etmek için kullanılan bir işaretleme dilidir. <br>HTML ile birlikte çalışır ve web sayfalarının nasıl görüneceğini belirler. </h3>
+            <h3 style="margin-top: 8px;">sizde öğrenmek istiyorsanız satın al butonuna tıklayınız</h3>
+            <h2>İletişim: 
+                <a href="#">Instagram</a> en kısa sürede döneceğiz
+            </h2>
+        </div>
+        <button class="btn animate__animated animate__fadeInDown animate__delay-0.5s">sadece 18999tl sahıp ol!</button>
+    </div>
+    <!-- HERO BİTİŞ -->
+    <!-- HERO ALANI -->
+    <div class="hero2">
+        <h1 style="font-size: 3rem;">CSS ÖĞRENMEK SANILDIĞI KADAR ZOR DEĞİL</h1>
+        <h3 style="font-size: 1.25rem;">Sadece 3 ayınızı vererek ortalama bir seviyeye gelebilirsiniz.</h3>
+        <ul>
+            <li>48 SAATLİK TEMEL CSS KURSU ŞLE UZMANLAŞACAKSINIZ.</li>
+            <li>KURS SOUNNDA ÖGRENME SERTIFIKASI ALACAKSINIZ</li>
+            <li>YAPARAK YAŞAYARAK ÖĞRENECEKSİNİZ</li>
+            <li>MEMMUN KALMADIĞINIZDA PARANIZI 30 GUN ICINDE IADE EDEBILIRSINIZ</li>
+            <li>24 SAAT CANLI DESTEK HATTIMIZDAN ULASABILIRSINIZ</li>
+
+        </ul>
+    </div>
+    <!-- HERO ALANI BİTİŞ -->
+
+    <!-- KURS ALANI BASLANGIC -->
+    <div class="course-description">
+        <div class="title">
+            <h1>BU EGTIMDE NELERI OGRENECEKSINIZ</h1>
+        </div>
+        <div class="description">
+            <ul>
+                <li>Aşama <span>#1</span> </li>
+                <li>Aşama <span>#2</span> </li>
+                <li>Aşama <span>#3</span> </li>
+                <li>Aşama <span>#4</span> </li>  
+            </ul>
+            <ul>
+                <li>html </li>
+                <li>css</li>
+                <li>uygulama</li>
+                <li>bitirme projesi</li>  
+            </ul>
+        </div>
+        <div class="pay" style="text-align: center; margin-top: 18px;">
+            <h3>Sizin için hazırlagımıız kursa goz atabılırsını</h3>
+            <h4>kendını gelıstırmek ıcın sadece 1777tl <br>
+                <button>hemen kaydol</button>
+            </h4>
+        </div>
+    </div>
+    <!-- KURS ACIKLAMA BİTİS -->
+    <!-- KURS TANITIM ALANI -->
+    <div class="course-introduction">
+        <div class="course-title-img">
+            <h1 style="text-align: center;">KURS İÇERİĞİ VE İÇERİK DETAYI</h1>
+            <img src="/İMG/soft.png" alt="">
+        </div>
+        <div class="course-list">
+            <ul>
+                <li>kUrs icerigi html öğreneceğiz <span>24 Saat</span></li>
+                <li>kUrs icerigi css öğreneceğiz <span>24 Saat</span></li>
+                <li>kUrs icerigi uygulama yapacağız<span>24 Saat</span></li>
+                <li>kUrs icerigi bitirme projesi<span>24 Saat</span></li>
+            </ul>
+        </div>
+        <button class="btn">ŞİMDİ BILGI AL</button>
+    </div>
+
+<script>
+    var mybuttom =document.getElementById("mybtn");
+    window.onscroll = function(){scrollFunction()};
+
+
+    function scrollFunction(){
+        if(document.body.scrollTop > 20 || document.documentElement.scrollTop >20) {
+            mybuttom.style.display ="block";
+        }
+        else {
+            mybuttom.style.display = "none";
+        }
+    }
+
+    function topFunction(){
+        // document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+</body>
+</html>
